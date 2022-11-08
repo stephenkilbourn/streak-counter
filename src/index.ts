@@ -1,13 +1,8 @@
-import { buildStreak, formattedDate, updateStreak } from "../src/utils"
+import { buildStreak, differenceInDays, formattedDate, updateStreak } from "../src/utils"
 
 import { KEY, Streak } from "../src/utils"
 
-export function differenceInDays(dateLeft: Date, dateRight: Date): number {
-  const diffTime = Math.abs(dateLeft.getTime() - dateRight.getTime())
-  const differenceInDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
 
-  return differenceInDays
-}
 
 function shouldIncrementOrResetStreakCount(
   currentDate: Date,
