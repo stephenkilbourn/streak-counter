@@ -21,3 +21,5 @@ const streak = streakCounter(localStorage, today)
 //    lastLoginDate: "11/05/2022",
 //    startDate: "11/05/2022",
 // }
+
+[![Edit streak-counter (ts-course) (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/streak-counter-ts-course-forked-dsp0ow?fontsize=14&hidenavigation=1&theme=dark)
